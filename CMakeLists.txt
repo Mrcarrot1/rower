@@ -15,8 +15,6 @@ endif ()
 
 #set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fsanitize=signed-integer-overflow -fsanitize=unsigned-integer-overflow")
 add_executable(rower main.c
-        graphics-utils.h
-        graphics-utils.c
         gopher-protocol.c
         gopher-protocol.h
         network-interface.c
